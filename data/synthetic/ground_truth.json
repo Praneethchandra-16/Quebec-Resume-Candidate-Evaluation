@@ -1,0 +1,237 @@
+{
+  "_about": "Hand-labelled expectations for the 8 synthetic resumes, judged from the RESUME TEXT ONLY (before GitHub/portfolio enrichment). Strength scale: NOT_FOUND < MENTIONED < PROJECT_EVIDENCE < PROFESSIONAL_EVIDENCE < STRONG_PRODUCTION_EVIDENCE. Used by scripts/evaluate.py in step 6.",
+  "job": "data/jd/senior_ai_engineer.md",
+  "expected_rank_order": [
+    "candidate_001",
+    "candidate_005",
+    "candidate_004",
+    "candidate_003",
+    "candidate_007",
+    "candidate_002",
+    "candidate_006",
+    "candidate_008"
+  ],
+  "notes_on_ranking": {
+    "candidate_006": "Keyword-stuffed. If it lands in the top 3, the evidence layer is broken - that is the headline failure test.",
+    "candidate_007": "Should rise several places once GitHub + portfolio enrichment runs. Compare pre/post enrichment ranks.",
+    "candidate_005": "Strong evidence but only ~2 years vs a 5+ year requirement; the experience gate should cap, not eliminate."
+  },
+  "candidates": {
+    "candidate_001": {
+      "total_experience_years": 6.5,
+      "links": {
+        "github": "https://github.com/aaravmenon",
+        "linkedin": "https://linkedin.com/in/aarav-menon-ai",
+        "portfolio": "https://aaravmenon.dev"
+      },
+      "requirements": {
+        "req_python": "STRONG_PRODUCTION_EVIDENCE",
+        "req_backend_api": "STRONG_PRODUCTION_EVIDENCE",
+        "req_cloud": "STRONG_PRODUCTION_EVIDENCE",
+        "req_llm_apps": "STRONG_PRODUCTION_EVIDENCE",
+        "req_rag": "STRONG_PRODUCTION_EVIDENCE",
+        "req_langchain": "MENTIONED",
+        "req_langgraph": "STRONG_PRODUCTION_EVIDENCE",
+        "req_agentic_ai": "STRONG_PRODUCTION_EVIDENCE",
+        "req_tool_calling": "STRONG_PRODUCTION_EVIDENCE",
+        "req_production_ai": "STRONG_PRODUCTION_EVIDENCE",
+        "req_docker_cicd": "STRONG_PRODUCTION_EVIDENCE",
+        "req_vector_db": "STRONG_PRODUCTION_EVIDENCE",
+        "req_kubernetes": "NOT_FOUND",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "NOT_FOUND",
+        "req_llm_observability": "PROFESSIONAL_EVIDENCE"
+      }
+    },
+    "candidate_002": {
+      "total_experience_years": 8.5,
+      "links": {
+        "github": "https://github.com/priya-ram",
+        "linkedin": "https://linkedin.com/in/priya-ramanathan-ml",
+        "portfolio": null
+      },
+      "requirements": {
+        "req_python": "STRONG_PRODUCTION_EVIDENCE",
+        "req_backend_api": "PROFESSIONAL_EVIDENCE",
+        "req_cloud": "STRONG_PRODUCTION_EVIDENCE",
+        "req_llm_apps": "PROFESSIONAL_EVIDENCE",
+        "req_rag": "NOT_FOUND",
+        "req_langchain": "NOT_FOUND",
+        "req_langgraph": "NOT_FOUND",
+        "req_agentic_ai": "NOT_FOUND",
+        "req_tool_calling": "NOT_FOUND",
+        "req_production_ai": "STRONG_PRODUCTION_EVIDENCE",
+        "req_docker_cicd": "PROFESSIONAL_EVIDENCE",
+        "req_vector_db": "NOT_FOUND",
+        "req_kubernetes": "STRONG_PRODUCTION_EVIDENCE",
+        "req_mlflow": "STRONG_PRODUCTION_EVIDENCE",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "PROFESSIONAL_EVIDENCE",
+        "req_llm_observability": "NOT_FOUND"
+      }
+    },
+    "candidate_003": {
+      "total_experience_years": 4.2,
+      "links": {
+        "github": "https://github.com/rohit-verma-ml",
+        "linkedin": "https://linkedin.com/in/rohitverma-genai",
+        "portfolio": "https://rohitverma.ai"
+      },
+      "requirements": {
+        "req_python": "PROFESSIONAL_EVIDENCE",
+        "req_backend_api": "NOT_FOUND",
+        "req_cloud": "NOT_FOUND",
+        "req_llm_apps": "STRONG_PRODUCTION_EVIDENCE",
+        "req_rag": "PROFESSIONAL_EVIDENCE",
+        "req_langchain": "MENTIONED",
+        "req_langgraph": "PROJECT_EVIDENCE",
+        "req_agentic_ai": "PROJECT_EVIDENCE",
+        "req_tool_calling": "NOT_FOUND",
+        "req_production_ai": "NOT_FOUND",
+        "req_docker_cicd": "MENTIONED",
+        "req_vector_db": "PROFESSIONAL_EVIDENCE",
+        "req_kubernetes": "NOT_FOUND",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "NOT_FOUND",
+        "req_llm_observability": "PROFESSIONAL_EVIDENCE"
+      }
+    },
+    "candidate_004": {
+      "total_experience_years": 7.5,
+      "links": {
+        "github": "https://github.com/dokafor",
+        "linkedin": "https://linkedin.com/in/danielokafor-platform",
+        "portfolio": null
+      },
+      "requirements": {
+        "req_python": "STRONG_PRODUCTION_EVIDENCE",
+        "req_backend_api": "STRONG_PRODUCTION_EVIDENCE",
+        "req_cloud": "STRONG_PRODUCTION_EVIDENCE",
+        "req_llm_apps": "PROFESSIONAL_EVIDENCE",
+        "req_rag": "PROFESSIONAL_EVIDENCE",
+        "req_langchain": "NOT_FOUND",
+        "req_langgraph": "NOT_FOUND",
+        "req_agentic_ai": "NOT_FOUND",
+        "req_tool_calling": "PROFESSIONAL_EVIDENCE",
+        "req_production_ai": "PROFESSIONAL_EVIDENCE",
+        "req_docker_cicd": "STRONG_PRODUCTION_EVIDENCE",
+        "req_vector_db": "PROFESSIONAL_EVIDENCE",
+        "req_kubernetes": "STRONG_PRODUCTION_EVIDENCE",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "NOT_FOUND",
+        "req_llm_observability": "NOT_FOUND"
+      }
+    },
+    "candidate_005": {
+      "total_experience_years": 2.0,
+      "links": {
+        "github": "https://github.com/snehaiyer-dev",
+        "linkedin": "https://linkedin.com/in/sneha-iyer-ai",
+        "portfolio": "https://sneha-iyer.vercel.app"
+      },
+      "requirements": {
+        "req_python": "PROFESSIONAL_EVIDENCE",
+        "req_backend_api": "PROFESSIONAL_EVIDENCE",
+        "req_cloud": "MENTIONED",
+        "req_llm_apps": "STRONG_PRODUCTION_EVIDENCE",
+        "req_rag": "STRONG_PRODUCTION_EVIDENCE",
+        "req_langchain": "MENTIONED",
+        "req_langgraph": "PROFESSIONAL_EVIDENCE",
+        "req_agentic_ai": "PROFESSIONAL_EVIDENCE",
+        "req_tool_calling": "MENTIONED",
+        "req_production_ai": "PROFESSIONAL_EVIDENCE",
+        "req_docker_cicd": "PROFESSIONAL_EVIDENCE",
+        "req_vector_db": "STRONG_PRODUCTION_EVIDENCE",
+        "req_kubernetes": "NOT_FOUND",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "NOT_FOUND",
+        "req_llm_observability": "PROJECT_EVIDENCE"
+      }
+    },
+    "candidate_006": {
+      "total_experience_years": 8.0,
+      "links": {
+        "github": "https://github.com/vikramshetty99",
+        "linkedin": "https://linkedin.com/in/vikram-shetty-ai-expert",
+        "portfolio": null
+      },
+      "requirements": {
+        "req_python": "MENTIONED",
+        "req_backend_api": "MENTIONED",
+        "req_cloud": "MENTIONED",
+        "req_llm_apps": "MENTIONED",
+        "req_rag": "MENTIONED",
+        "req_langchain": "MENTIONED",
+        "req_langgraph": "MENTIONED",
+        "req_agentic_ai": "MENTIONED",
+        "req_tool_calling": "MENTIONED",
+        "req_production_ai": "MENTIONED",
+        "req_docker_cicd": "MENTIONED",
+        "req_vector_db": "MENTIONED",
+        "req_kubernetes": "MENTIONED",
+        "req_mlflow": "MENTIONED",
+        "req_mcp": "MENTIONED",
+        "req_databricks_snowflake": "MENTIONED",
+        "req_llm_observability": "NOT_FOUND"
+      }
+    },
+    "candidate_007": {
+      "total_experience_years": 5.1,
+      "links": {
+        "github": "https://github.com/meerak-builds",
+        "linkedin": null,
+        "portfolio": "https://meerakrishnan.com"
+      },
+      "requirements": {
+        "req_python": "PROFESSIONAL_EVIDENCE",
+        "req_backend_api": "PROFESSIONAL_EVIDENCE",
+        "req_cloud": "MENTIONED",
+        "req_llm_apps": "NOT_FOUND",
+        "req_rag": "NOT_FOUND",
+        "req_langchain": "NOT_FOUND",
+        "req_langgraph": "NOT_FOUND",
+        "req_agentic_ai": "NOT_FOUND",
+        "req_tool_calling": "NOT_FOUND",
+        "req_production_ai": "NOT_FOUND",
+        "req_docker_cicd": "PROFESSIONAL_EVIDENCE",
+        "req_vector_db": "NOT_FOUND",
+        "req_kubernetes": "NOT_FOUND",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "NOT_FOUND",
+        "req_llm_observability": "NOT_FOUND"
+      }
+    },
+    "candidate_008": {
+      "total_experience_years": 6.2,
+      "links": {
+        "github": null,
+        "linkedin": "https://linkedin.com/in/arjun-desai-analytics",
+        "portfolio": null
+      },
+      "requirements": {
+        "req_python": "PROFESSIONAL_EVIDENCE",
+        "req_backend_api": "NOT_FOUND",
+        "req_cloud": "NOT_FOUND",
+        "req_llm_apps": "MENTIONED",
+        "req_rag": "NOT_FOUND",
+        "req_langchain": "NOT_FOUND",
+        "req_langgraph": "NOT_FOUND",
+        "req_agentic_ai": "NOT_FOUND",
+        "req_tool_calling": "NOT_FOUND",
+        "req_production_ai": "NOT_FOUND",
+        "req_docker_cicd": "NOT_FOUND",
+        "req_vector_db": "NOT_FOUND",
+        "req_kubernetes": "NOT_FOUND",
+        "req_mlflow": "NOT_FOUND",
+        "req_mcp": "NOT_FOUND",
+        "req_databricks_snowflake": "PROFESSIONAL_EVIDENCE",
+        "req_llm_observability": "NOT_FOUND"
+      }
+    }
+  }
+}

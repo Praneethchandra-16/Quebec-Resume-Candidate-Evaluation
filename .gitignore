@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+out/
+*.egg-info/
+
+# streamlit local secrets (never commit)
+.streamlit/secrets.toml
