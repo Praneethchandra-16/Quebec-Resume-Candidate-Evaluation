@@ -1,5 +1,5 @@
 # Quebec Candidate Resume Evaluation — evidence-grounded candidate review
-
+**[Live demo →](https://quebec-resume-evaluation.streamlit.app/)**
 An agentic screening system that reads a job description, parses resumes,
 follows the links inside them (GitHub, portfolio), matches each JD requirement
 to **evidence** rather than keywords, and produces a ranked, explainable
